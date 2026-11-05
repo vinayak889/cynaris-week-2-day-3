@@ -1,7 +1,4 @@
 
-/* ==========================================
-   JavaScript Fundamentals — Week 2 Day 3
-   ========================================== */
 
 // 1. Arrow function with default parameter
 const greet = (name = "Developer") => {
