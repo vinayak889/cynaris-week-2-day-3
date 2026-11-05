@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Fundamentals</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f3f4f6;
+      color: #1f2937;
+    }
+
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      color: #4f46e5;
+    }
+
+    button {
+      padding: 12px 16px;
+      margin: 8px 5px 8px 0;
+      border: none;
+      border-radius: 6px;
+      background: #4f46e5;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #3730a3;
+    }
+
+    li {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+
+    #status {
+      color: #4f46e5;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>JavaScript Fundamentals</h1>
+
+    <p>
+      Practising ES6+ functions, arrays, objects,
+      Promises, and async/await.
+    </p>
+
+    <h2>JSONPlaceholder API</h2>
+
+    <button id="promise-btn">
+      Fetch Using Promise
+    </button>
+
+    <button id="async-btn">
+      Fetch Using Async/Await
+    </button>
+
+    <p id="status">Click a button to fetch users.</p>
+
+    <h3>User Details</h3>
+    <ul id="users-list"></ul>
+  </div>
+
+  <script src="js_fundamentals.js"></script>
+</body>
+</html>
